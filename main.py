@@ -1,6 +1,6 @@
 from pyrogram import Client
 app = Client("MyBot", api_id = 8, api_hash = "7245de8e747a0d6fbe11f7cc14fcc0bb",
-             bot_token= "6780239837:AAH0CHShG6N8zYdp6j-rio97sKboOsAPQMw")
+             bot_token= "6780239837:AAGZX3g4M_du9Og98B3aqqbbz9mvFEwXoMY")
 
 @app.on_message()
 async def viewCount(client, message):
